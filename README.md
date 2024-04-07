@@ -4,11 +4,7 @@
 Due to the large size of datasets and their similarity matrix *ML-10M*, *Amazon* and *Tmall*, we have uploaded them on BaiduDisk. Please check the URL below.
 https://pan.baidu.com/s/1PaDPQHdyVwyCAepKwH7iLg f04m
 
-Before running the codes, please ensure that two directories `log/` and `saved_model/` are created under the root directory. They are used to store the training results and the saved model and optimizer states.
-
 ### 2. Running environment
-
-We develope our codes in the following environment:
 
 ```
 Python version 3.9.12
@@ -57,4 +53,4 @@ python main.py --data amazon --gnn_layer 1 --lambda2 0 --temp 0.1
 * `--lambda2` is $\lambda_2$, the L2 regularization weight.
 * `--temp` specifies $\tau$, the temperature in CL loss.
 * `--dropout` is the edge dropout rate.
-* `--q` decides the rank q for SVD.
+* `--q` decides the rank q for PCA.
