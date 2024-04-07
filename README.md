@@ -2,6 +2,7 @@
 ### 1. Note on datasets and directories
 
 Due to the large size of datasets and their similarity matrix *ML-10M*, *Amazon*, *Tmall*, *lastFM*, *beerAdvocate* and *Gowalla* we have uploaded them on BaiduDisk. Please check the URL below.
+
 https://pan.baidu.com/s/1PaDPQHdyVwyCAepKwH7iLg f04m
 
 ### 2. Running environment
